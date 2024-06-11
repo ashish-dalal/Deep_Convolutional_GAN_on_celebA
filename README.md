@@ -34,7 +34,7 @@ The key hyperparameters used in the code are:
 - **Optimizer**: Adam optimizer with learning rate `0.0002` and beta1 `0.5`.
 - **Batch Size**: 128
 - **Noise Vector Dimension**: 100
-- **Number of Epochs**: 25 (can be adjusted based on dataset size and training resources)
+- **Number of Epochs**: 20 (can be adjusted based on dataset size and training resources)
 - **Image Size**: 64x64
 - **Learning Rate**: 0.0002
 - **Beta1 for Adam**: 0.5
