@@ -58,10 +58,14 @@ This repository contains the implementation of a Deep Convolutional Generative A
     ```
 
 ## Results
+
 A sample of generated images after training for 20 epochs
+
 ![Generated Image](results/image.png)
 
+
 A sample of original images from the celebA dataset
+
 ![Generated Image](results/image_real_example.png)
 
 
