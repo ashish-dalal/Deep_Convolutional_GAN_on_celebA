@@ -61,6 +61,11 @@ This repository contains the implementation of a Deep Convolutional Generative A
 
 Generated images will be saved in the `results/` directory. You can find sample generated images and training logs in this directory.
 
+## Generated Images
+![Generated Image](results/image.png)
+![Generated Image](results/image_real_example.png)
+
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
