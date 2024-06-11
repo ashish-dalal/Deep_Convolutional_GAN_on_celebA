@@ -58,11 +58,10 @@ This repository contains the implementation of a Deep Convolutional Generative A
     ```
 
 ## Results
-
-Generated images will be saved in the `results/` directory. You can find sample generated images and training logs in this directory.
-
-## Generated Images
+A sample of generated images after training for 20 epochs
 ![Generated Image](results/image.png)
+
+A sample of original images from the celebA dataset
 ![Generated Image](results/image_real_example.png)
 
 
