@@ -29,7 +29,7 @@ The DCGAN architecture consists of:
 
 ### Hyperparameters
 
-The key hyperparameters used in the original paper are:
+The key hyperparameters used in the code are:
 
 - **Optimizer**: Adam optimizer with learning rate `0.0002` and beta1 `0.5`.
 - **Batch Size**: 128
