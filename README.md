@@ -16,6 +16,30 @@ Deep Convolutional Generative Adversarial Network trained on facial images from 
 
 This repository contains the implementation of a Deep Convolutional Generative Adversarial Network (DCGAN) that is trained on the CelebA dataset to generate realistic images of celebrity faces.
 
+## Architecture
+
+This project implements the Deep Convolutional Generative Adversarial Network (DCGAN) architecture as described in the paper ["Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"](https://arxiv.org/abs/1511.06434) by Alec Radford, Luke Metz, and Soumith Chintala.
+
+### Architecture Details
+
+The DCGAN architecture consists of:
+
+- **Generator**: Uses transposed convolutions to upsample the input noise vector into a 64x64 RGB image. The generator employs batch normalization and ReLU activation functions, except for the output layer which uses a Tanh activation function.
+- **Discriminator**: A typical convolutional neural network that classifies 64x64 RGB images as real or fake. It uses Leaky ReLU activation functions and does not apply batch normalization to the first layer.
+
+### Hyperparameters
+
+The key hyperparameters used in the original paper are:
+
+- **Optimizer**: Adam optimizer with learning rate `0.0002` and beta1 `0.5`.
+- **Batch Size**: 128
+- **Noise Vector Dimension**: 100
+- **Number of Epochs**: 25 (can be adjusted based on dataset size and training resources)
+- **Image Size**: 64x64
+- **Learning Rate**: 0.0002
+- **Beta1 for Adam**: 0.5
+
+
 ## Features
 
 - Implementation of DCGAN architecture.
