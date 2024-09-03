@@ -3,6 +3,7 @@ from torch import nn
 import torchvision
 from torch.utils.tensorboard import SummaryWriter
 from torchvision import transforms
+import generator, discriminator
 
 def initialize_weights(model):
     for m in model.modules():
